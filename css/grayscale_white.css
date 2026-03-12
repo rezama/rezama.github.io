@@ -67,9 +67,9 @@ p, table {
 }
 
 th {
-    font-weight:normal;
-    vertical-align:top;
-    horizontal-align:left;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left;
 }
 
 @media(min-width:768px) {
@@ -495,15 +495,19 @@ ul.left-text{
 	text-align: left;
 }
 
-li:not(:last-child) {
+.list-inline-x li:not(:last-child) {
     margin-bottom: -20px;
 }
 
 #about ul {
     list-style-type: disc;
     padding-left: 20px;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
-
 #about li {
     display: list-item;
     margin-bottom: 6px;
