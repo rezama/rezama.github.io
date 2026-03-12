@@ -499,6 +499,16 @@ li:not(:last-child) {
     margin-bottom: -20px;
 }
 
+#about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#about li {
+    display: list-item;
+    margin-bottom: 6px;
+}
+
 footer {
     padding: 50px 0;
 }
